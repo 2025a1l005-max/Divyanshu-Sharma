@@ -48,4 +48,35 @@
 
 
 #pwd = input("Enter password: ")
-#print("Valid" if "@" in pwd and len(pwd) >= 8 else "Invalid")
+#print("Valid" if "@" in pwd and len(pwd) >= 8 and "Password must contain 1 uppercase letter in starting" else "Invalid")
+
+
+
+#Write a python program to take a string and separate characters prsent at even index positions and odd index positions.
+
+
+#s = input("Enter a string: ")
+#print("Even index characters:", s[::2])
+#print("Odd index characters:", s[1::2])
+
+
+
+#Take an email address and check weather it contains @ and .com.
+
+
+#email = input("Enter an email address: ")
+#if "@" in email and ".com" in email:
+#else:
+#    print("Invalid: missing '@' or '.com'")
+
+
+
+
+#Take a sentence containing double spaces and unwanted spaces at the beginning or end . Clean the sentence.
+
+
+#sentence = input("Enter a sentence: ")
+#sentence = sentence.strip()
+#while "  " in sentence:
+#    sentence = sentence.replace("  ", " ")
+#print("Cleaned sentence:", sentence)
